@@ -2,8 +2,8 @@ import mariadb
 from flask_restful import reqparse
 from models.scrapper import getUrl
 conn_params = {
-    'user': 'enki',
-    'password': 'asd',
+    'user': '',
+    'password': '',
     'host':'localhost',
     'database': 'products_eb'
 }

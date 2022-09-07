@@ -7,13 +7,13 @@ from resources.users import UsersRegister, UsersLogin
 
 
 app = Flask(__name__)
-app.secret_key = "asd98ad23iu"
+app.secret_key = ""
 api = Api(app)
 
 jwt =JWTManager(app)
 
 
-#@app.after_request #investigar
+#@app.after_request
 #def after_request(response):
 #  response.headers.add('Access-Control-Allow-Origin', 'http://127.0.0.1:5501') #vscode liveserver
  # response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')

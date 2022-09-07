@@ -1,8 +1,8 @@
 import mariadb
 
 conn_params = {
-    'user': 'enki',
-    'password': 'asd',
+    'user': '',
+    'password': '',
     'host':'localhost'
 }
 

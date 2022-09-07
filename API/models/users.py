@@ -4,8 +4,8 @@ from flask_restful import reqparse
 from hmac import compare_digest
 
 conn_params = {
-    'user': 'enki',
-    'password': 'asd',
+    'user': '',
+    'password': '',
     'host':'localhost',
     'database': 'products_eb'
 }

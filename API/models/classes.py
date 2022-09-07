@@ -3,8 +3,8 @@ import mariadb
 from models.items import Item_M
 from models.scrapper import getUrl
 conn_params = {
-    'user': 'enki',
-    'password': 'asd',
+    'user': '',
+    'password': '',
     'host':'localhost',
     'database': 'products_eb'
 }
